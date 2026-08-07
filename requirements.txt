@@ -1,0 +1,41 @@
+# Environment & Configuration
+python-dotenv==1.0.1
+
+# PDF Processing
+pypdf==4.2.0
+
+# LangChain Ecosystem (consistent 0.2.x stack)
+langchain==0.2.16
+langchain-core==0.2.22
+langchain-community==0.2.17
+langchain-openai==0.1.14
+langchain-text-splitters==0.2.4
+langchain-huggingface==0.3.1
+
+# LLM & API Integration
+openai==1.6.1
+tiktoken==0.7.0
+
+# Vector Database & Embeddings
+chromadb==0.4.24
+sentence-transformers==2.7.0
+pydantic==2.8.2
+
+# UI & Web Framework
+streamlit==1.35.0
+
+# Data Processing
+pandas==2.2.2
+numpy==1.26.4
+
+# HTTP & Utilities
+requests==2.32.3
+
+# Type Hints (Python 3.11 Compatibility)
+typing-extensions==4.12.2
+
+# Development & Testing
+pytest==7.4.4
+pytest-cov==4.1.0
+black==24.3.0
+pylint==3.2.6
