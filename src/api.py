@@ -158,10 +158,12 @@ async def generic_exception_handler(_: Request, exc: Exception) -> JSONResponse:
     )
 
 
-@app.get(
-    "/health",
-    response_model=HealthResponse
-)
+@app.get("/")
+def home():
+    return {
+        "message": "Research Paper Answer Bot API is running",
+        "docs": "/docs"
+    }
 def health_check():
     """Return the health status of the service and its dependencies."""
     try:
